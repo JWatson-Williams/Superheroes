@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Identities</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="SecondPage.css">
+    <script src="SecondPage.js"></script>
+</head>
+<body>
+    <!--This creates the navbar at the top of the page-->
+    <div class="w3-top">
+        <div class="w3-bar w3-card w3-left-align w3-large w3-indigo">
+            <a href="FirstPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+            <a href="SecondPage.html" class="w3-bar-item w3-button w3-padding-large w3-white">Real Identities</a>
+            <a href="ThirdPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Superpowers</a>
+            <a href="FourthPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Villains</a>
+            <a href="FifthPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Alternate Versions</a>
+            <a href="SixthPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Notable Events</a>
+            <a href="SeventhPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">The Creators</a>
+        </div>
+    </div>
+    
+    <!--Creates the colored background with the header inside it-->
+    <header class="w3-container w3-indigo w3-center" style="padding:50px 16px">
+        <h1 class="w3-margin w3-jumbo">SUPERHEROES</h1>
+        <p class="w3-xlarge">The Man Under the Mask</p>
+    </header>
+    
+    <!--Creates the "Real Names" Table-->
+    <table class="w3-table w3-striped w3-centered w3-border">
+        <thead class="w3-teal">
+            <tr>
+                <th>Superhero Name</th>
+                <th>Real Names</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Wolverine</td>
+            <td>James Howlett (Logan)</td>
+        </tr>
+        <tr>
+            <td>Spider-man</td>
+            <td>Peter-Parker</td>
+        </tr>
+        <tr>
+            <td>The Hulk</td>
+            <td>Bruce Banner</td>
+        </tr>
+        <tr>
+            <td>Captain America</td>
+            <td>Steve Rogers</td>
+        </tr>
+        <tr>
+            <td>Iron Man</td>
+            <td>Tony Stark</td>
+        </tr>
+        <!--
+        <tr>
+            <td>Deadpool</td>
+            <td>Wade Winston Wilson</td>
+        </tr>
+        <tr>
+            <td>Mr. Fantastic</td>
+            <td>Reed Richards</td>
+        </tr>
+        <tr>
+            <td>The Thing</td>
+            <td>Ben Grimm</td>
+        </tr>
+        -->
+    </table>
+
+    <!--Code for making the image box change to whatever image the mouse is hovering over-->
+    <div id="Image">
+        Hover over a hero to display their real name here
+    </div>
+    <br/>
+
+    <img class="preview" alt="Bruce Banner" src="Bruce%20Banner.jfif" onmouseover="update(this)" onmouseout="undo()"/>
+    <img class="preview" alt="Peter Parker" src="Peter-Parker.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+    <img class="preview" alt="James Howlett" src="James-Howlett.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+    <img class="preview" alt="Tony Stark" src="Tony%20Stark.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+    <img class="preview" alt="Steve Rogers" src="Steve%20Rogers.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+   <!-- <img class="preview" alt="Wade Wilson" src="Wade%20Wilson.png" onmouseover="update(this)" onmouseout="undo()"/>
+    <img class="preview" alt="Reed Richards" src="Reed%20Richards.jfif" onmouseover="update(this)" onmouseout="undo()"/>
+    <img class="preview" alt="Ben Grimm" src="The%20Thing.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+    -->
+</body>
+</html>

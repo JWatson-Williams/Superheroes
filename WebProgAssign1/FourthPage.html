@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Villains</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="FourthPage.css">
+    <script src="FourthPage.js"></script>
+</head>
+<body class="w3-blue-grey">
+    <!--This creates the navbar at the top of the page-->
+    <div class="w3-top">
+      <div class="w3-bar w3-card w3-left-align w3-large w3-text-white topcolor">
+        <a href="FirstPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+        <a href="SecondPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Real Identities</a>
+        <a href="ThirdPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Superpowers</a>
+        <a href="FourthPage.html" class="w3-bar-item w3-button w3-padding-large w3-white">Villains</a>
+        <a href="FifthPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Alternate Versions</a>
+        <a href="SixthPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Notable Events</a>
+        <a href="SeventhPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">The Creators</a>
+      </div>
+    </div>
+    
+    <!--Creates the colored background with the "VILLAINS" header-->
+    <header class="w3-container w3-center w3-text-white topcolor" style="padding:50px 16px">
+      <h1 class="w3-margin w3-jumbo">VILLAINS</h1>
+      <p class="w3-xlarge">Every Superhero Needs a Villain</p>
+    </header>
+    
+    <!--This is a placeholder for the villain's backstory that is displayed when their image is hovered over-->
+    <div class="w3-row-padding w3-padding-32 w3-container">
+        <div class="w3-content">
+            <div id="Backstory">
+            </div>
+        </div>
+    </div>
+    
+    <!--Code for Gallery-->
+    <div class="w3-row-padding w3-padding-32 w3-container">
+        <div class="w3-content">
+            <!--This contains the information for each villain's picture and their backstory-->
+            <div class="w3-threequarter">
+                <div class="group" onmouseover="replaceText(this)" onmouseout="undoText()">
+                    <img class="preview" alt="Green-Goblin" src="Green-Goblin.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+                    <p class="description">Born Norman Osborn, he is the co-owner of Osborn Industries. His wife, Emily, died and due to his past trauma of having an alcoholic father
+                        he began to be cruel to his own son, Harry. The owners of Malone's flophouse refused to sell it to Norman. Norman sent goons to "convince" them to
+                        sell the warehouse which led to Namor destroying Norman's construction equipment. As a result, Norman began to research biological enhancements
+                        but everything fell apart when he transformed his employee. He descended into madness, gave himself the Serum, and gained superhuman strength, intelligence, and regeneration
+                        at the cost of his sanity.</p>
+                </div>
+    
+                <div class="group" onmouseover="replaceText(this)" onmouseout="undoText()">
+                    <img class="preview" alt="Abomination" src="Abomination.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+                    <p class="description">Emil Blonsky is a K.G.B. agent and spy who becomes the Abomination after deliberately exposing himself to a greater quantity of the same gamma radiation that transformed Bruce Banner into the Hulk.
+                        Blonsky is transformed into a massive green-skinned monster that starts out with physical strength exceeding that of the Hulk; since his first appearance, he is more than twice as powerful as the Hulk, if the latter is not enraged.
+                        Although he retains his mental faculties, Blonsky soon discovers he is unable to return to human form.
+                    </p>
+                </div>
+    
+                <div class="group" onmouseover="replaceText(this)" onmouseout="undoText()">
+                    <img class="preview" alt="Magneto" src="Magneto.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+                    <p class="description">Born Max Eisenhardt, Magneto grew up in a Jewish middle class family. He became attracted to a girl named Magda. After the death of his parents, During the Second World War he was placed in Auschwitz.
+                        He became a Sonderkommando to avoid being selected for experimentation then later was reunited with Magda. The Sonderkommando revolted and the couple escaped to a mountain village and had a daughter, Anya.
+                        Max consciously used his powers for the first time in the city to beat up his boss but when he returned to his home that day it was on fire. The boss called the KGB and held Max down to prevent him from saving his
+                        daughter, who was in the building. He used his powers to kill the soldiers and his wife fled. He then changed his name to Erik Magnus Lehnsherr and met Charles Xavier in Israel. They debated about the prospects of a
+                        superhuman race before revealing their true identities to one another to stop a Nazi criminal.
+                    </p>
+                </div>
+    
+                <div class="group" onmouseover="replaceText(this)" onmouseout="undoText()">
+                    <img class="preview" alt="Red-Skull" src="Red-Skull.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+                    <p class="description">
+                        Born Johann Shmidt, the Red Skull was born as the son of German villagers named Hermann Shmidt and Martha. Martha died while giving birth and as a result, Johann's abusive, drunk father tried to drown him. The
+                        doctor saved Johann and took him to an orphanage which Johann ended up running away from. He lived in the streets as a thief and worked various jobs but mostly spent time in prison due to his crimes. He got a job as a bellhop
+                        in a hotel where he served Adolf Hitler's rooms. He happened to be in the room when Hitler was berating an officer and Hitler proclaimed that he could train Johhann to be a better National Socialist than the officer.
+                        From there Hitler trained Johann, gave him a uniform with a red skull mask and he was then donned, the Red Skull. His role was to be the embodiment of Nazi intimidation. He was appointed head of Nazi terrorist activities
+                        and was very successful at spreading havoc all throughout Europe. He clashed with Captain America frequently and ended up buried under the rubble of a bombed building. He was rescued by HYDRA and subverted a HYDRA cell to killing Captain America.
+                    </p>
+                </div>
+    
+                <div class="group" onmouseover="replaceText(this)" onmouseout="undoText()">
+                    <img class="preview" alt="Iron Monger" src="IronMonger.jpg" onmouseover="update(this)" onmouseout="undo()"/>
+                    <p class="description">
+                        Born Obadiah Stane, he was a businessman who headed Stark industries once Howard stark died then transitioned to second-in-command when Tony Stark took over. When Stark came back from Afghanistan Stane appeared to assist
+                        Stark's attempt to shift Stark Industries away from arms manufacturing. However, behind the scene he was sending weapons to both sides of the war. The Ten Rings found the remnants of the prototype Iron-Man armor and Stane made
+                        a deal with them to have it delivered to him but killed them and stole the Mark I armor. He built a bigger, more powerful suit but had his plans discovered by Pepper Potts. He took the arc reactor from Tony's chest to power his suit.
+                        He tried to kill Potts but Tony comes to save her. The two fought and Stane, along with his suit, died in an explosion. His death got covered up by S.H.I.E.L.D. and Tony.
+                    </p>
+                </div>
+            </div>
+            
+            <!--This is the where the preview image will be displayed upon hovering over it. This is placeholder text + background color-->
+            <div class="w3-quarter">
+                <div id="Image">
+                    Hover over a villain to see name+image
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Displays the table of Villain's enemies-->
+    <div class="w3-row-padding w3-padding-32 w3-container">
+        <table class="w3-table w3-bordered w3-border w3-card-4 w3-blue-grey">
+            <tr>
+                <th>Villain</th>
+                <th>Their Hero Nemisis</th>
+            </tr>
+            <tr>
+                <td>Green-Goblin</td>
+                <td>Spider-Man</td>
+            </tr>
+            <tr>
+                <td>Abomination</td>
+                <td>The Hulk</td>
+            </tr>
+            <tr>
+                <td>Magneto</td>
+                <td>The X-Men</td>
+            </tr>
+            <tr>
+                <td>Red-Skull</td>
+                <td>Captain America</td>
+            </tr>
+            <tr>
+                <td>Iron Monger</td>
+                <td>Iron Man</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
